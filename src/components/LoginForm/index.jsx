@@ -5,6 +5,7 @@ import CustomButton from "../../basic-ui-components/CustomButton";
 const LoginForm = () => {
   return (
     <div>
+      <h2>Sign In To Your Account!</h2>
       <Form>
         <FormGroup>
           <Label for="exampleEmail" hidden>
@@ -28,7 +29,7 @@ const LoginForm = () => {
             type="password"
           />
         </FormGroup>
-        <CustomButton btnText="Sign In" />
+        <CustomButton btnText="Continue To iMax" />
       </Form>
       <p>
         New to iMax? <Link to="/register">Register</Link> Here!
